@@ -196,3 +196,24 @@ zokou({ nomCom: 'hack2',
 
   }
 )
+
+
+zokou({ nomCom: 'sub',
+    desc: 'To check runtime',
+    Categorie: 'My contact',
+    reaction: '🕯️', 
+    fromMe: 'true', 
+
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*_Hello 👋 Friend Please Support My Owner By Subscribe YouTube Channel When You Don't Mind It's Me Lucky Md_* :https://www.youtube.com/@freeonlinetvT1`) 
+
+   
+
+
+  }
+);
+
