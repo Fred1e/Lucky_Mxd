@@ -2,9 +2,9 @@ const axios = require('axios');
 const { zokou } = require('../framework/zokou');
 
 zokou({
-  nomCom: 'tiny',
+  nomCom: 'tiniy',
   categorie: 'converter',
-  reaction: '✅',
+  reaction: '🪄',
   filename: __filename
 }, async (context, url) => {
   console.log('Received URL:', url);
